@@ -1,0 +1,1 @@
+Este é um arquivo criado para testar o comando "git pull".
