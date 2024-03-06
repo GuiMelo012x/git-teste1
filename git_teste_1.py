@@ -1,1 +1,1 @@
-print("Testando")
+print("Testando commits pelos comandos do curso de Git - Básico ao Avançado.")
