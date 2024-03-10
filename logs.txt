@@ -1,0 +1,18 @@
+[33mcommit a9631d03fd23d551f459383c1fca74e99622552c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31mgit/main[m[33m)[m
+Author: Guilherme Melo <guilherme2020102296@unicap.br>
+Date:   Wed Mar 6 22:00:19 2024 -0300
+
+    testando merge
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 23ae4fa..3c465e6 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -8,5 +8,6 @@[m
+ <body>[m
+     <h1>Boa noite!</h1>[m
+     <p> oiii</p>[m
+[32m+[m[32m    <p>Testando merge</p>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
