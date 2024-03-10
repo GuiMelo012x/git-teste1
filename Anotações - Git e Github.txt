@@ -242,3 +242,32 @@ Log resumido
 	Cada commit pode ser unido por nome do autor.
 	Desta forma, tem como saber quais commits foram enviados ao projeto e por quem.
 	Mostra uma lista sde commits e quem commitou.
+	
+Limpando arquivos untracked
+	O comando git clean verifica e limpa arquivos que não estão sendo trackeados.
+	É útil para todos os arquivos que não foram adicionados no git add.
+	Utilizado para arquivos que são gerados automaticamente como logs e atrapalham a visualização do que é realmente importante.
+	Para evitar que um arquivo importante seja removido, é necessário utilizar o comando git add nele, senão, ele vai junto com os logs no git clean.
+	Comando:
+		git clean --> limpa arquivos que não foram trackeados.
+		
+Otimizando o repositório
+	O comando git gc detecta e remove arquivos que ele julga desnecessários para liberar memória.
+	Gc é uma abreviação para garbage collector.
+	Isso fará com que o repositório seja otimizado em questão de performance.
+	É bom utilizar uma vez por mês.
+	É comum demorar caso o repositório seja muito grande.
+	Comando: 
+		git gc --> comprime e remove arquivos em que o git julga desnecessário.
+		
+Checando integridade dos arquivos
+	O comando git fsck verifica arquivos que foram corrompidos, ou possíveis corrupções nele.
+	Fsck é uma abreviação para File System Check
+	É um comando de rotina, utilizado frequentemente para ver se está tudo certo com os arquivos do repositório.
+	Comando:
+		git fsck --> checa a integridade e procura por corrupções.
+		
+Reflog
+	O comando git reflog mapea todos os passos dados no repositório em um log. Armazena até quando há mudança de branch.	
+	O git log armazena apenas os commits de um branch.
+	Os reflogs ficam salvos até expirar, o tempo de expiração padrão é de 30 dias.
